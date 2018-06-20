@@ -1,0 +1,211 @@
+@charset "UTF-8";
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+    color: #2e7eea
+}
+
+a:hover {
+    color: #57aaed
+}
+
+a:active,
+a:hover {
+    outline-width: 0
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+    color: #47525d
+}
+
+.mtAboutUsFisrtImage {
+    margin-top: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footerCommon .copy-right {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    font-family: HYQiHei-55;
+    font-size: 12px;
+    letter-spacing: 0.44px;
+}
+
+.footerCommon.active {
+    margin-top: 0px
+}
+
+.landing-page .child-page .main-title {
+    height: 178px;
+}
+
+.landing-page .child-page .main-title .container h2 {
+    font-size: 28px;
+    margin-top: -14px;
+}
+
+.landing-page .child-page .second-describFirst {
+    width: 310px;
+    text-align: left;
+    margin: 26px auto 0px;
+    font-family: HYQiHei-55;
+    font-size: 14px;
+    color: #6D7075;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+.landing-page .child-page .second-describSecond {
+    width: 310px;
+    text-align: left;
+    margin: 26px auto 10px;
+    font-family: HYQiHei-55;
+    font-size: 14px;
+    color: #6D7075;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+.landing-page .child-page .second-describThird {
+    width: 310px;
+    text-align: left;
+    margin: 14px auto 0px;
+    font-family: HYQiHei-55;
+    font-size: 14px;
+    color: #9DA2AD;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+.landing-page .child-page h2 {
+    width: 310px;
+    text-align: center;
+    margin: 30px auto 0px;
+    font-family: HYQiHei-55;
+    line-height: 24px;
+    font-size: 14px;
+    color: #6D7075;
+    letter-spacing: 0px;
+}
+
+.landing-page .child-page .second-describ {
+    width: 310px;
+    text-align: left;
+    margin: 14px auto 0px;
+    color: #9DA2AD;
+    font-size: 14px;
+    font-family: HYQiHei-55;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+.landing-page .child-page .second-title {
+    width: 310px;
+    text-align: center;
+    margin: 50px auto -10px;
+    line-height: 32px;
+    font-family: HYQiHei-55;
+    font-size: 18px;
+    color: #464D5C;
+    letter-spacing: 1.92px;
+}
+
+
+/*关于我们*/
+
+.landing-page .child-page .item-list {
+    border-top: 1px solid #d0d3d9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -155px;
+    width: 310px;
+}
+
+.landing-page .child-page .item-list:first-child {
+    border-top: none
+}
+
+.landing-page .child-page .item-list .infoTitle {
+    font-family: HYQiHei-60;
+    font-size: 18px;
+    color: #464D5C;
+    letter-spacing: 1.92px;
+}
+
+.landing-page .child-page .item-list .infoInfo {
+    font-family: HYQiHei-55;
+    font-size: 14px;
+    color: #6D7075;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin-top: 16px;
+    width: 310px;
+    text-align: left;
+}
+
+.landing-page .child-page .item-list .infoInfo h5 {
+    font-family: HYQiHei-60;
+    text-align: left;
+    font-size: 14px;
+    color: #464D5C;
+    letter-spacing: 0px;
+    margin-top: 26px;
+}
+
+.landing-page .child-page .item-list .infoInfo p {
+    font-family: HYQiHei-55;
+    line-height: 24px;
+    margin-top: 10px;
+    width: 310px;
+    text-align: left;
+    font-size: 14px;
+    color: #6D7075;
+    letter-spacing: 0px;
+}
+
+.landing-page .child-page .image .zi-vertical1 {
+    width: 310px;
+    height: 165px;
+}
+
+.landing-page .child-page .zi-vertical2 {
+    margin-top: 13px;
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+.landing-page .child-page .zi-vertical2 .zi-horizontal1 {
+    width: 148px;
+    height: 200px;
+    float: left
+}
+
+.landing-page .child-page .zi-vertical2 .zi-horizontal2 {
+    width: 148px;
+    height: 200px;
+    float: left;
+    margin-left: 13px
+}
+
+.landing-page .about,
+.landing-page .help .container,
+.landing-page .jobs,
+.landing-page .privacy {
+    min-width: 100%;
+}

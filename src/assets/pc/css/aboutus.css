@@ -1,0 +1,204 @@
+@charset "UTF-8";
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+    color: #2e7eea
+}
+
+a:hover {
+    color: #57aaed
+}
+
+a:active,
+a:hover {
+    outline-width: 0
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+    color: #47525d
+}
+
+
+/*关于我们*/
+
+.landing-page .container {
+    width: 968px;
+}
+
+.footerCommon .copy-right {
+    text-align: center;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-family: Montserrat;
+    letter-spacing: .52px
+}
+
+.footerCommon.active {
+    margin-top: 10px
+}
+
+.landing-page .child-page .main-title .container h2 {
+    font-size: 72px;
+    margin-top: -36px;
+}
+
+.landing-page .child-page .second-describFirst {
+    width: 930px;
+    text-align: center;
+    margin: 60px auto -40px;
+    color: #6d7075;
+    font-size: 16px;
+    font-family: HYQiHei-55;
+    line-height: 32px;
+}
+
+.landing-page .child-page .second-describSecond {
+    width: 930px;
+    text-align: center;
+    margin: 60px auto 0px;
+    color: #6d7075;
+    font-size: 16px;
+    font-family: HYQiHei-55
+}
+
+.landing-page .child-page .second-describThird {
+    width: 930px;
+    text-align: center;
+    margin: 45px auto 0px;
+    color: #6d7075;
+    font-size: 16px;
+    font-family: HYQiHei-55
+}
+
+.landing-page .child-page .second-describ {
+    width: 930px;
+    text-align: center;
+    margin: 30px auto 0px;
+    color: #6d7075;
+    font-size: 16px;
+    font-family: HYQiHei-55
+}
+
+.landing-page .child-page .second-title {
+    width: 930px;
+    text-align: center;
+    margin: 120px auto -30px;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: HYQiHei-55
+}
+
+.landing-page .child-page .item-list {
+    border-top: 1px solid #d0d3d9;
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
+.landing-page .child-page .image .zi-vertical2 {
+    width: 968px;
+    height: 625px;
+    margin-top: 40px;
+    margin-bottom: 0px
+}
+
+.landing-page .child-page .item-list:first-child {
+    border-top: none
+}
+
+.landing-page .child-page .item-list .about-left {
+    width: 358px;
+    float: left
+}
+
+.landing-page .child-page .item-list .about-left h4 {
+    font-family: HYQiHei-60;
+    font-size: 24px;
+    color: #464D5C;
+    letter-spacing: 2.57px;
+}
+
+.landing-page .child-page .item-list .about-right {
+    margin-left: 39px;
+    width: 570px;
+    float: left
+}
+
+.landing-page .child-page .item-list .about-right p {
+    color: #6d7075;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 0;
+    font-family: HYQiHei-55;
+    letter-spacing: 0px;
+}
+
+.landing-page .child-page .item-list .about-right h5 {
+    font-size: 16px;
+    color: #464d5c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: HYQiHei-60;
+    letter-spacing: 0px;
+}
+
+.landing-page .child-page .image {
+    margin-bottom: -20px
+}
+
+.landing-page .child-page .image .zi-vertical1 {
+    width: 968px;
+    height: 513px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.landing-page .child-page .image .zi-vertical2 .zi-horizontal1 {
+    width: 464px;
+    height: 625px;
+    float: left
+}
+
+.landing-page .child-page .image .zi-vertical2 .zi-horizontal2 {
+    width: 464px;
+    height: 625px;
+    float: left;
+    margin-left: 40px
+}
+
+.landing-page .child-page .item-list .about-right ul {
+    margin-bottom: 25px;
+}
+
+.landing-page .child-page .item-list .about-right ul li {
+    /* margin-top: 35px; */
+    margin-top: 20px;
+    margin-bottom: 0;
+    /* font-size: 16px; */
+    font-size: 15px;
+    color: #6d7075;
+    line-height: 32px;
+    margin-left: 18px;
+    list-style: inherit;
+}
+
+
+/*链接样式*/
+
+.landing-page .about,
+.landing-page .help .container,
+.landing-page .jobs,
+.landing-page .privacy {
+    min-width: 968px
+}

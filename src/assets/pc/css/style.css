@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.navbar .bar-item.left .logo {
+    top: 60px;
+}
+
+
+/*首页标题*/
+
+.mtIndexTitle .bigTitle {
+    font-size: 48px;
+    font-family: HYQiHei-55;
+}
+
+.mtIndexTitle .smallTitle {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: HYQiHei-45;
+    color: #FFFFFF;
+    letter-spacing: 3.2px;
+}
+
+.mtAboutUsFisrtImage {
+    margin-top: 120px;
+    padding-top: 80px;
+}
+
+@media (max-width: 90em) {
+    .containerHead {
+        left: 136px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 60em) {
+    .containerHead {
+        left: 2em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 2.5em;
+    }
+    .footer-aboutUs {
+        width: 100%;
+        color: #7f8589;
+        font-size: 14px;
+        font-weight: 100;
+        position: absolute;
+        bottom: 12em;
+        color: white;
+        text-align: center;
+    }
+    .mtIndexTitle .smallTitle {
+        margin-top: 19px;
+        font-size: 1em;
+        font-family: HYQiHei-45;
+        color: #FFFFFF;
+        letter-spacing: 3.2px;
+    }
+}
+
+@media (max-width: 40em) {
+    .containerHead {
+        left: 1.5em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 2em;
+    }
+    .footer-aboutUs {
+        width: 100%;
+        color: #7f8589;
+        font-size: 14px;
+        font-weight: 100;
+        position: absolute;
+        bottom: 10em;
+        color: white;
+        text-align: center;
+    }
+    .mtIndexTitle .smallTitle {
+        margin-top: 19px;
+        font-size: 0.8em;
+        font-family: HYQiHei-60;
+        color: #FFFFFF;
+        letter-spacing: 3.2px;
+    }
+}
+
+@media (max-width: 30em) {
+    .containerHead {
+        left: 1em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 1.5em;
+    }
+    .footer-aboutUs {
+        width: 100%;
+        color: #7f8589;
+        font-size: 14px;
+        font-weight: 100;
+        position: absolute;
+        bottom: 8em;
+        color: white;
+        text-align: center;
+    }
+    .mtIndexTitle .smallTitle {
+        margin-top: 19px;
+        font-size: 0.6em;
+        font-family: HYQiHei-60;
+        color: #FFFFFF;
+        letter-spacing: 3.2px;
+    }
+}
+
+@media (max-width: 20em) {
+    .containerHead {
+        left: 1em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 1.5em;
+    }
+    .footer-aboutUs {
+        width: 100%;
+        color: #7f8589;
+        font-size: 14px;
+        font-weight: 100;
+        position: absolute;
+        bottom: 8em;
+        color: white;
+        text-align: center;
+    }
+    .mtIndexTitle .smallTitle {
+        margin-top: 19px;
+        font-size: 0.6em;
+        font-family: HYQiHei-60;
+        color: #FFFFFF;
+        letter-spacing: 3.2px;
+    }
+}
+
+@media (max-width: 15em) {
+    .containerHead {
+        left: 1em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 1.5em;
+    }
+    .footer-aboutUs {
+        width: 100%;
+        color: #7f8589;
+        font-size: 14px;
+        font-weight: 100;
+        position: absolute;
+        bottom: 8em;
+        color: white;
+        text-align: center;
+    }
+    .mtIndexTitle .smallTitle {
+        margin-top: 19px;
+        font-size: 0.6em;
+        font-family: HYQiHei-60;
+        color: #FFFFFF;
+        letter-spacing: 3.2px;
+    }
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.container {
+    position: initial;
+}
+
+.navbar .bar-item.left .logo {
+    top: 21px;
+    left: 33px;
+}
+
+.containerHead .icon-logo img {
+    width: 49px;
+    height: 13px;
+}
+
+
+/*首页标题*/
+
+.mtIndexTitle .bigTitle {
+    font-size: 30px;
+    font-family: HYQiHei-55;
+    color: #FFFFFF;
+    letter-spacing: 1.25px;
+    line-height: 48px;
+}
+
+.mtIndexTitle .smallTitle {
+    margin-top: 5px;
+    font-family: HYQiHei-45;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 2.79px;
+}
+
+.footer-aboutUs {
+    bottom: 136px;
+}
+
+
+/*链接样式*/
+
+@media (min-width: 15em) {
+    .containerHead {
+        left: 1em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 20em) {
+    .containerHead {
+        left: 1em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 1.87em;
+    }
+}
+
+@media (min-width: 30em) {
+    .containerHead {
+        left: 1em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 1.87em;
+    }
+}
+
+@media (min-width: 40em) {
+    .containerHead {
+        left: 1.5em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 60em) {
+    .containerHead {
+        left: 2em;
+        margin-left: 0px;
+    }
+    .mtIndexTitle .bigTitle {
+        font-size: 2.5em;
+    }
+}
